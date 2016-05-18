@@ -1,0 +1,49 @@
+.navbar {
+	display: flex;
+	max-width: 960px;
+	position: relative;
+
+}
+.navbar li{
+	margin: auto;
+	list-style: none;
+	width: 20%;
+	float: left;
+	flex: auto;
+	background-color: steelblue;
+	position: relative;
+	text-align: center;
+
+
+}
+.navbar a{
+	margin: auto;
+	display: inline;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+
+}
+article {
+	max-width: 960px;
+	
+
+}
+article>p{
+	display: block;
+	
+}
+article>div{
+	box-sizing: content-box;
+	max-width: 960px;
+	display: inline-block;
+	margin: auto;
+
+
+}
+
+.gallery{
+	max-width: 960px;
+	display: inline-block;
+	text-align: center;
+}
